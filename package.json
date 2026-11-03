@@ -1,0 +1,16 @@
+{
+  "name": "ts-fundamentals",
+  "version": "1.0.0",
+  "description": "Store and Sales Management System CLI - AT-02-A04",
+  "type": "module",
+  "scripts": {
+    "start": "tsc && node dist/src/index.js",
+    "build": "tsc",
+    "test": "vitest run"
+  },
+  "private": true,
+  "devDependencies": {
+    "typescript": "^7.0.2",
+    "vitest": "^5.1.0"
+  }
+}
